@@ -98,25 +98,42 @@ void setup() {}
 
 void loop() {
 
-	tone(8, NOTE_A4, 0);
-	delay(0);
+	tone(8, NOTE_C5, 496);
+	delay(496);
 
-	tone(8, NOTE_B4, 0);
-	delay(0);
+	tone(8, NOTE_B4, 372);
+	delay(372);
 
-	tone(8, NOTE_C4, 0);
-	delay(0);
+	tone(8, NOTE_C5, 124);
+	delay(124);
 
-	tone(8, NOTE_D4, 0);
-	delay(0);
+	tone(8, NOTE_A4, 248);
+	delay(248);
 
-	tone(8, NOTE_E4, 0);
-	delay(0);
+	tone(8, NOTE_C5, 496);
+	delay(496);
 
-	tone(8, NOTE_F4, 0);
-	delay(0);
+	tone(8, NOTE_D5, 248);
+	delay(248);
 
-	tone(8, NOTE_G4, 0);
-	delay(0);
+	tone(8, NOTE_DS5, 248);
+	delay(248);
+
+	tone(8, NOTE_E5, 248);
+	delay(248);
+
+	tone(8, NOTE_F5, 248);
+	delay(248);
+
+	tone(8, NOTE_FS5, 248);
+	delay(248);
+
+	tone(8, NOTE_G5, 248);
+	delay(248);
+
+	delay(248);
+
+	tone(8, NOTE_G5, 496);
+	delay(496);
 
 }

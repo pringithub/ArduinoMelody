@@ -21,11 +21,11 @@ using namespace std;
 
 int main(int argc, char** argv) {
 
-	int bpm = 120;
-	int timeSignatureDenom = 4; 									// note that gets the beat
-	int timeStepForDenomMS = (60 / bpm) * 1000;
+	double bpm = 120;
+	double timeSignatureDenom = 2; 									// note that gets the beat
+	double timeStepForDenomMS = (60 / bpm) * 1000;
 	int timeStepMS = timeStepForDenomMS / (SHORTEST_NOTE / timeSignatureDenom); // sixteenth note is lowest discrete step
-
+	
 	int noteLength;
 
 	map<char,int> noteVals;
@@ -58,8 +58,9 @@ int main(int argc, char** argv) {
 		if (line[0] == '/') continue;
 		
 		// rests
-		if (line.size() == 3) {
-			outfile << "\tdelay(" << (line[2]-'0')*timeStepMS << ");\n\n";
+		if (line[0] == '.') {
+			noteLength = (line[3] == '.') ? noteVals[line[2]]*1.5 : noteVals[line[2]];
+			outfile << "\tdelay(" << noteLength*timeStepMS << ");\n\n";
 		}
 		// natural notes 
 		else if (line.size() == 5) {
