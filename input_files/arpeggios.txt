@@ -1,0 +1,33 @@
+// C arpeggio
+C4 34
+E4 34
+G4 34
+C5 34
+// D arpeggio
+D4 34
+FS4 34
+A4 34
+D5 34
+// E arpeggio
+E4 34
+GS4 34
+B4 34
+E5 34
+// F arpeggio
+F4 34
+A4 34
+C5 34
+// G arpeggio
+G4 34
+B4 34
+D5 34
+// A arpeggio
+A4 34
+CS5 34
+E5 34
+// B arpeggio
+B4 34
+DS5 34
+FS5 34
+// Fin
+G5 68

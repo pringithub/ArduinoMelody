@@ -1,0 +1,21 @@
+//
+// measure 1
+C5 h-
+B4 q.
+C5 e-
+//
+// m2
+A4 q-
+C5 h-
+D5 q-
+//
+// m3
+DS5 q-
+E5 q-
+F5 q-
+FS5 q-
+//
+// m4
+G5 q-
+. q-
+G5 h-

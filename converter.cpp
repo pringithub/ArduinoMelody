@@ -11,7 +11,7 @@ using namespace std;
 
    This program simply converts from a specified format to the more cumbersome one:
 
-	ex: 'A4 68' to the above 
+	<note><octave> <length[whqes]><dotted[.-]>
 */
 
 
